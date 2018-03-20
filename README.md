@@ -38,6 +38,6 @@ When invoking your functions you will have to either pass in the variable you cr
 
 8.  Create a function called `mathChamp` with two parameters `name` and `num`. Using the function parameters create the following sentence: `-name- has won -num- math decathlons.` \*Hint: You will need to pass a String value for `name` when invoking your function.
 
-9.  Create a function called `winner` with three parameters `num1`, `num2`, and `sport`. Using the function parameters create the following sentence: `My school has won -num1- + -num2- -sport- games this season.`
+9.  Create a function called `winner` with three parameters `num1`, `num2`, and `sport`. Using the function parameters create the following sentence: `My school has won -num1- + -num2- -sport- games this season.` \*Hint: You will need to pass a String value for `sport` when invoking your function.
 
-10. Create a function called `lottery` with two parameters `location` and `name`. Using the function parameers create the following sentence: `The winner of the million dollar raffle is -name-. Please redeem your prize at -location-.`
+10. Create a function called `lottery` with two parameters `location` and `name`. Using the function parameters create the following sentence: `The winner of the million dollar lotto is -name-. Please redeem your prize at -location-.` \*Hint: You will need to pass a String values.
