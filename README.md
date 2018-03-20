@@ -2,37 +2,42 @@
 
 ## Getting Started
 
-You will be doing the function exercises in the JavaScript section of your code editor. For each exercise please put the instructions above each exercise. Example:
+You will be doing the function exercises in the JavaScript section of your code editor. Console log inside of your functions. Don't forget to invoke your functions.
+
+Example:
 
 ```
-// Create a function that adds 2 numbers together
-function add(num1, num2) {
-    console.log(num1 + num2);
+var addTwoNums = 5 + 3;
+
+function addThenSubtract(sum, num) {
+    console.log(sum - num);
 };
+
+add(addTwoNums, 2);
 ```
 
 ## Exercises
 
 ### Part I
 
-Please console log your inside of your functions.
+When invoking your functions you will have to either pass in the variable you created with each exercise and a number of your choice or pass in your own arguments.
 
-1.  Declare three variables called `num1`, `num2`, `num3` and store a Number value to each variable.
+1.  Create a function called `multiply` with two parameters `num1` and `num2`. This function should multiply `num1` by `num2`.
 
-2.  Create a function called `multiply` that will multiply the `num1`, `num2`, and `num3` variables.
+2.  Declare a variable called `sumOfNums` and store the sum of two numbers of your choice. Next, create a function called `subtractFromSum` with two parameters `sum` and `num`. Using the function parameters subtract `num` from `sum`.
 
-3.  Create a function called `addThenSubtract`. Inside of your function declare a variable that will store the `sum` of `num1` and `num3`. Next, you will subtract `num2` from your `sum` variable.
+3.  Declare a variable called `diffOfNums` and store the difference of two numbers of your choice. Next, create a function called `subtractThenMultiply` with two parameters `diff` and `num`. Using the function parameters multiply `num` by `diff`.
 
-4.  Create a function called `subtractThenMultiply`. Inside of your function declare a variable that will store the `difference` of `num2` and `num3`. Next, you will multiply `num1` to the value stored in the `difference` variable.
+4.  Declare a variable called `quotientOfNums` and store the quotient of two numbers of your choice. Next, create a function called `addToQuotient` with two parameters `quotient` and `num`. Using the function parameters, add `num` to `quotient`.
 
-5.  Create a function called `divideThenAdd`. Inside of your function declare a variable that will store the `quotient` of `num1` and `num2`. Next, you will add `num3` to the value stored in the `quotient` variable.
+5.  Declare a variable called `productOfNums` that will store the product of two numbers of your choice. Next, create a function called `multipyThenDivide` with two parameters `product` and `num`. Using the function parameters divide `product` by `num`.
 
-6.  Create a function called `multipyThenDivide`. Inside of your function declare a variable that will store the `product` of `num2` and `num3`. Next, you will divide `num1` from the value stored in `product`.
+6.  Create a function called `divide` with two parameters `num1` and `num2`. Your function should produce the remainder of `num1` and `num3`. \*Hint: You can use the modulus % operator to get the remainder of two numbers.
 
-7.  Create a function called `divide`. Your function should produce the remainder of `num1` and `num3`. \*Hint: You can use the modulus % operator to get the remainder of two numbers.
+7.  Declare a variable called `getDiffOfNums` that will store the difference of two numbers of your choice. Create a function called `addToDiff` with two parameters `diff` and `num`. Using the function parameters add `num` to `diff`.
 
-8.  Create a function called `subtractThenAdd`. Inside of your function declare a variable that will store the `difference` of `num1` and `num2`. Next, you will add `num3` to the value stored in the `difference` variable.
+8.  Create a function called `mathChamp` with two parameters `name` and `num`. Using the function parameters create the following sentence: `-name- has won -num- math decathlons.` \*Hint: You will need to pass a String value for `name` when invoking your function.
 
-9.  Declare a variable called `name` with a String value. Next, create a function called `mathChamp` that will produce the following sentence: `-name- has won -num2- math decathlons.` You will be using the `num2` variable that you created previously.
+9.  Create a function called `winner` with three parameters `num1`, `num2`, and `sport`. Using the function parameters create the following sentence: `My school has won -num1- + -num2- -sport- games this season.`
 
-10. Declare a variable called `sport` with a String value. Next, create a function called `winner`. Inside of the function create a variable called `sum` that will add the `num1` and `num2` variables. Next, produce the following sentence: `My school has won -sum- -sport- games this season.`
+10. Create a function called `lottery` with two parameters `location` and `name`. Using the function parameers create the following sentence: `The winner of the million dollar raffle is -name-. Please redeem your prize at -location-.`
