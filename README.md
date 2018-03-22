@@ -2,7 +2,17 @@
 
 ## Getting Started
 
-You will be doing the function exercises in the JavaScript section of your code editor. Don't forget to invoke/call your functions. There are two parts of this assignment. In Part I of this assignment you will just be console logging. In Part II of the assignment you will be returning values. Only move on to Part II if you covered the return value in class. Otherwise, wait for instructions from your instructor to move on to Part II.
+You will be doing the function exercises in the JavaScript section of your code editor. There are two parts of this assignment:
+
+* Part I of this assignment you will only use console.log()
+* Part II of the assignment you will return values
+  * Only move on to Part II if you covered `return` in class. Otherwise, wait for your instructor to move on to Part II
+
+## Exercises
+
+### Part I
+
+Don't forget to invoke and pass in the appropriate arguments. Console log in the body of the function.
 
 Example:
 
@@ -17,88 +27,72 @@ function addThenSubtract(sum, num) {
 addThenSubtract(addTwoNums, 2);
 ```
 
-## Exercises
-
-### Part I
-
-When invoking your functions you will have to either pass in the variable you created with each exercise and a number of your choice or pass in your own arguments. Console log inside of your functions.
-
 **Multiply**
 
 1.  Create a function called `multiply`
 2.  This function takes two parameters `num1` and `num2`
-3.  Multiply `num1` by `num2` in the function
+3.  Console log `num1` times `num2` in the body of the function
 4.  Invoke your function and pass in the appropriate arguments
-
-**Subtract From Sum**
-
-1.  Declare a variable called `sumOfNums` and store the sum of two numbers of your choice.
-2.  Create a function called `subtractFromSum`
-3.  This function takes two parameters `sum` and `num`
-4.  Subtract `num` from `sum`
-5.  Invoke your function with the appropriate arguments
 
 **Subtract Then Multiply**
 
-1.  Declare a variable called `diffOfNums` and store the difference of two numbers of your choice.
-2.  Create a function called `subtractThenMultiply`
-3.  This function takes two parameters `diff` and `num`
-4.  Multiply `num` by `diff`
+1.  Create a function called `subtractThenMultiply`
+2.  This function takes two parameters `num1` and `num2`
+3.  In the body of your function create a variable called `difference` and store the difference of `num1` minus `num2`
+4.  Then, console log `difference` times `num1`
 5.  Invoke your function with the appropriate arguments
 
-**Add To Quotient**
+**Divide Then Add**
 
-1.  Declare a variable called `quotientOfNums` and store the quotient of two numbers of your choice.
-2.  Create a function called `addToQuotient`
-3.  This function takes two parameters `quotient` and `num`
-4.  Add `num` to `quotient`
+1.  Create a function called `divideThenAdd`
+2.  This function takes two parameters `num1` and `num2`
+3.  In the body of your function create a variable called `quotient` and store the quotient of `num2` divided by `num1`
+4.  Then, console log `quotient` plus `num1`
 5.  Invoke your function with the appropriate arguments
 
 **Multiply Then Divide**
 
-1.  Declare a variable called `productOfNums` that will store the product of two numbers of your choice.
-2.  Create a function called `multipyThenDivide`
-3.  This function takes two parameters `product` and `num`
-4.  Divide `product` by `num`
+1.  Create a function called `multipyThenDivide`
+2.  This function takes three parameters `num1`, `num2`, and `num3`
+3.  In the body of your function create a variable called `product` and store the product of `num1` times `num3`
+4.  Then, console log `product` divided by `num2`
+5.  Invoke your function with the appropriate arguments
+
+**Add Then Subtract**
+
+1.  Create a function called `addThenSubtract`
+2.  This function takes three parameters `num1`, `num2`, and `num3`
+3.  In the body of your function create a variable called `sum` and store the sum of `num1` plus `num2`
+4.  Then, console log `sum` minus `num3`
 5.  Invoke your function with the appropriate arguments
 
 **Get Remainder**
 
 1.  Create a function called `getRemainder`
 2.  This function takes two parameters `num1` and `num2`.
-3.  Your function should get the remainder of `num1` and `num3`
+3.  In the body of your function console log to get the remainder of `num1` and `num3`
     * Hint: You can use the modulus ( % ) operator.
 4.  Invoke your function with the appropriate arguments
-
-**Add To Difference**
-
-1.  Declare a variable called `getDiffOfNums` that will store the difference of two numbers of your choice
-2.  Create a function called `addToDiff`
-3.  This function takes two parameters `diff` and `num`
-4.  Add `num` to `diff`
-5.  Invoke your function with the appropriate arguments
 
 **Math Champion**
 
 1.  Create a function called `mathChamp`
 2.  This function takes two parameters `name` (String value) and `num`
-3.  Create the following sentence:
-    `-name- has won -num- math decathlons.`
+3.  In the body of the function, console log to produce the following sentence: `-name- has won -num- math decathlons.`
 4.  Invoke your function with the appropriate arguments
 
 **Winner**
 
 1.  Create a function called `winner`
 2.  This function takes three parameters `num1`, `num2`, and `sport` (String value)
-3.  Create the following sentence:
-    `My school has won -num1- + -num2- -sport- games this season.`
+3.  In the body of the function, console log to produce the following sentence: `My school has won -num1- + -num2- -sport- games this season.`
 4.  Invoke your function with the appropriate arguments
 
 **Lottery**
 
 1.  Create a function called `lottery`
 2.  This function takes in two parameters `location` and `name` with String values
-3.  Create the following sentence: `The winner of the million dollar lotto is -name-. Please redeem your prize at -location-.`
+3.  In the body of the function, console log to produce the following sentence: `The winner of the million dollar lotto is -name-. Please redeem your prize at -location-.`
 4.  Invoke your function with the appropriate arguments
 
 ---
