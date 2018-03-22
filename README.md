@@ -7,14 +7,14 @@ You will be doing the function exercises in the JavaScript section of your code 
 Example:
 
 ```
-// addTwoNums
+// Add Then Subtract
 var addTwoNums = 5 + 3;
 
 function addThenSubtract(sum, num) {
     console.log(sum - num);
 };
 
-add(addTwoNums, 2);
+addThenSubtract(addTwoNums, 2);
 ```
 
 ## Exercises
