@@ -19,10 +19,10 @@ Example:
 ```
 // Brew Coffee
 function brewCoffee(ingredient1, ingredient2) {
-    console.log(ingredient1 + ingredient2 = " makes coffee.")
+    console.log(ingredient1 + " and " + ingredient2 = " make a cup of coffee.")
 };
 
-brewCoffee('water', 'coffee grounds');
+brewCoffee('water', 'coffee grounds'); // produces "water and coffee grounds make a cup of coffee
 ```
 
 **Multiply**
