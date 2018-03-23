@@ -17,14 +17,12 @@ Don't forget to invoke and pass in the appropriate arguments. Console log in the
 Example:
 
 ```
-// Add Then Subtract
-var addTwoNums = 5 + 3;
-
-function addThenSubtract(sum, num) {
-    console.log(sum - num);
+// Brew Coffee
+function brewCoffee(ingredient1, ingredient2) {
+    console.log(ingredient1 + ingredient2 = " makes coffee.")
 };
 
-addThenSubtract(addTwoNums, 2);
+brewCoffee('water', 'coffee grounds');
 ```
 
 **Multiply**
