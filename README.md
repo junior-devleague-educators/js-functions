@@ -121,9 +121,9 @@ var bank = {
 
 1.  Create a function called `greeting`
 2.  This function takes in one parameter `string`
-3.  Return a greeting of your choice
+3.  Return the `string` parameter
 4.  Create a variable for each client
-5.  Invoke your function with the appropriate arguments and store it in the corresponding variable
+5.  Invoke your function with a greeting of your choice as the argument and store it in a variable, repeat this for each variable you created.
 6.  Console log each variable to greet each client
     * Example: `"-stringValue- Mel"`
 
