@@ -120,12 +120,12 @@ var bank = {
 **Greet The Client**
 
 1.  Create a function called `greeting`
-2.  This function takes in one parameter `string`
+2.  This function takes in one parameter `string` (String)
 3.  Return the `string` parameter
 4.  Create a variable for each client
 5.  Invoke your function with a greeting of your choice as the argument and store it in a variable, repeat this for each variable you created.
 6.  Console log each variable to greet each client
-    * Example: `"-stringValue- Mel"`
+    * Example: `"Hello Mel"`
 
 **Get All Client Accounts**
 
@@ -134,7 +134,7 @@ var bank = {
 3.  Return all client accounts
 4.  Invoke your function with the appropriate argument and store it in a variable
 5.  Console log your variable and produce the following example sentence:
-    * Example: `"Active Bank Accounts: -objectValue-`
+    * Example: `"Active Bank Accounts: {...}`
 
 **Get An Individual Client Account**
 
@@ -144,7 +144,7 @@ var bank = {
 4.  Create a variable for each client
 5.  Invoke your function with the appropriate argument and store it in the corresponding variable
 6.  Console log each variable and produce the following sentence:
-    * Example: `"Mel's deposits: -arrayValue-"`
+    * Example: `"Mel's deposits: [...]"`
 
 **Get A Client's First Deposit**
 
@@ -154,7 +154,7 @@ var bank = {
 4.  Create a variable for each client
 5.  Invoke your function with the appropriate argument and store it in the corresponding variable
 6.  Console log each variable and produce the following sentence:
-    * Example: `"Mel's latest deposit: $-numberValue-"`
+    * Example: `"Mel's latest deposit: $99.00"`
 
 **Get A Client's Last Deposit**
 
@@ -165,7 +165,7 @@ var bank = {
 4.  Create a variable for each client
 5.  Invoke your function with the appropriate argument and store it in the corresponding variable
 6.  Console log each variable and produce the following sentence:
-    * Example: `"Mel's latest deposit: $-numberValue-"`
+    * Example: `"Mel's latest deposit: $99.00"`
 
 **Get A Client's Total Count Of Deposits**
 
@@ -175,7 +175,7 @@ var bank = {
 4.  Create a variable for each client
 5.  Invoke your function with the appropriate argument and store it in the corresponding variable
 6.  Console log each variable and produce the following sentence:
-    * Example: `"Mel has made -numberValue- deposits`"
+    * Example: `"Mel has made 5 deposits`"
 
 **Get Total Count Of Bank Deposit Transactions**
 
@@ -185,4 +185,4 @@ var bank = {
 4.  Pass the variables you created from the previous exercise as your arguments
 5.  Invoke your function with the variables you created in the previous exercise as your arguments and store it in a variable
 6.  Console log the variable and produce the following sentence:
-    * Example: `"Total Bank Deposit Transactions: -numberValue-"`
+    * Example: `"Total Bank Deposit Transactions: 5"`
